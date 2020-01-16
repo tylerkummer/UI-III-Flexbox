@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Header Style */
+.main-header .container .navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.main-header .container .navbar ul li a{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-header .top .image{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    width: 100%;
+}
+
+.main-header .services{
+    padding: 2% 2%;
+}
+
+.main-header .services h1{
+    font-size: 30px;
+}
+
+.main-header .services p{
+    font-size: 20px;
+}
+
+/* Middle Section Style */
+.middle{
+    margin-left: 30%;
+}
+
+.middle .top{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.middle .top .design{
+    border:1px solid black;
+    background-color: lightgrey;
+    padding: 2%;
+    margin: 5%;
+}
+
+.middle .top .ui{
+    border:1px solid black;
+    background-color: lightgrey;
+    padding: 2%;
+    margin: 5%;
+}
+
+.middle .middle{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 0%
+}
+
+.middle .middle .marketing{
+    border:1px solid black;
+    background-color: lightgrey;
+    padding: 2%;
+    margin: 5%;
+}
+
+.middle .middle .web{
+    border:1px solid black;
+    background-color: lightgrey;
+    padding: 2%;
+    margin: 5%;
+}
+
+.middle .bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.middle .bottom .ios{
+    border:1px solid black;
+    background-color: lightgrey;
+    padding: 2%;
+    margin: 5%;
+}
+
+.middle .bottom .android{
+    border:1px solid black;
+    background-color: lightgrey;
+    padding: 2%;
+    margin: 5%;
+}
+
+.middle button{
+    padding: 2% 4%;
+    border: #333 1px solid;
+    color: #333;
+    background-color: white;
+    text-decoration: none;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+/*Bottom Section Style*/
+.bottom .place{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.bottom .place .facts p{
+    margin-bottom: 3%;
+}
+
+.bottom .place ul{
+    list-style-type: disc;
+    padding-top: 2%;
+}
+
+/*Footer Section Style*/
+footer{
+    text-align: center;
+    margin: 2% 0;
+}
