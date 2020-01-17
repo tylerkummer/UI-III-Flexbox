@@ -65,6 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Compresses Page*/
+body{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 /* Header Style */
 .main-header .container .navbar ul{
     display: flex;
@@ -99,33 +105,33 @@ h1, h2, h3, h4, h5 {
 
 /* Middle Section Style */
 .middle{
-    margin-left: 30%;
+    margin-left: 3%;
 }
 
 .middle .top{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 100%;
 }
 
 .middle .top .design{
     border:1px solid black;
     background-color: lightgrey;
     padding: 2%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .middle .top .ui{
     border:1px solid black;
     background-color: lightgrey;
     padding: 2%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .middle .middle{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     margin-left: 0%
 }
 
@@ -133,34 +139,34 @@ h1, h2, h3, h4, h5 {
     border:1px solid black;
     background-color: lightgrey;
     padding: 2%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .middle .middle .web{
     border:1px solid black;
     background-color: lightgrey;
     padding: 2%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .middle .bottom{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 }
 
 .middle .bottom .ios{
     border:1px solid black;
     background-color: lightgrey;
     padding: 2%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .middle .bottom .android{
     border:1px solid black;
     background-color: lightgrey;
     padding: 2%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .middle button{
@@ -177,9 +183,9 @@ h1, h2, h3, h4, h5 {
 .bottom .place{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 3%;
 }
 
 .bottom .place .facts p{
